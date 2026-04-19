@@ -59,8 +59,7 @@ with st.sidebar:
         """
     )
     st.markdown("---")
-    st.markdown("Developed with ❤️ by [Arindam Majumder](https://www.youtube.com/c/Arindam_1729)")
-
+    st.markdown("[⭐ View Source Code on GitHub](https://github.com/Khushiii1/startup_idea_validator_agent)")
 idea = st.chat_input("Type your message...")
 
 def run_validation_sync(idea):
