@@ -28,7 +28,7 @@ An advanced AI-powered agentic application that validates and analyzes startup i
 
 - Python 3.9+
 - [uv](https://github.com/astral-sh/uv) package manager (used instead of pip)
-- [Gemini](https://dub.sh/Nebius) API key
+- [Gemini](https://aistudio.google.com/generate-speech?model=gemini-3.1-flash-tts-preview) API key
 - [Tavily](https://dub.sh/tavily) API key
 
 ### Environment Variables
