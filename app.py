@@ -9,7 +9,7 @@ nest_asyncio.apply()
 
 st.set_page_config(page_title="Startup Idea Validator Agent", layout="wide")
 
-load_dotenv()
+load_dotenv() 
 
 # Load images safely
 def load_image_base64(path):
