@@ -1,5 +1,5 @@
 
-# 🏢 Startup Idea Validator Agent
+# 🏢 PITCHPROBE- A Startup Idea Validator Agent
 
 An advanced AI-powered agentic application that validates and analyzes startup ideas through multi-stage research, competitor analysis, and comprehensive reporting. Built with Google ADK, Gemini AI, Tavily, and Streamlit.
 
