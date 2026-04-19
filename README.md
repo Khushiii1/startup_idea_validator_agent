@@ -10,7 +10,7 @@ An advanced AI-powered agentic application that validates and analyzes startup i
 - **Competitor Analysis**: Identifies competitors, strengths, weaknesses, and positioning
 - **Comprehensive Reports**: Generates markdown-friendly validation reports for easy reading
 - **Interactive Dashboard**: Streamlit UI for seamless user experience
-- **API Key Management**: Securely manage Nebius and Tavily API keys via sidebar
+- **API Key Management**: Securely manage Gemini and Tavily API keys via sidebar
 
 ## 🛠️ Tech Stack
 
