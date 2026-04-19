@@ -1,8 +1,7 @@
-![demo](./assets/demo.gif)
 
 # 🏢 Startup Idea Validator Agent
 
-An advanced AI-powered agentic application that validates and analyzes startup ideas through multi-stage research, competitor analysis, and comprehensive reporting. Built with Google ADK, Nebius AI, Tavily, and Streamlit.
+An advanced AI-powered agentic application that validates and analyzes startup ideas through multi-stage research, competitor analysis, and comprehensive reporting. Built with Google ADK, Gemini AI, Tavily, and Streamlit.
 
 ## 🚀 Features
 
@@ -18,7 +17,7 @@ An advanced AI-powered agentic application that validates and analyzes startup i
 - **Python**: Core programming language
 - **Streamlit**: Interactive web dashboard
 - **Google ADK**: Agentic workflow and LLM orchestration
-- **Nebius AI**: Large language model for research and analysis
+- **Gemini AI**: Large language model for research and analysis
 - **Tavily**: Web search and data extraction
 - **uv**: Fast Python package manager
 - **dotenv**: Environment variable management
@@ -29,7 +28,7 @@ An advanced AI-powered agentic application that validates and analyzes startup i
 
 - Python 3.9+
 - [uv](https://github.com/astral-sh/uv) package manager (used instead of pip)
-- [Nebius](https://dub.sh/Nebius) API key
+- [Gemini](https://dub.sh/Nebius) API key
 - [Tavily](https://dub.sh/tavily) API key
 
 ### Environment Variables
@@ -37,7 +36,7 @@ An advanced AI-powered agentic application that validates and analyzes startup i
 Create a `.env` file in the project root with the following variables:
 
 ```env
-NEBIUS_API_KEY="your_nebius_api_key"
+GEMINI_API_KEY="your_gemini_api_key"
 TAVILY_API_KEY="your_tavily_api_key"
 ```
 
@@ -83,26 +82,4 @@ TAVILY_API_KEY="your_tavily_api_key"
 4. **Competitor Analysis**: The Competitor Analyst agent evaluates competitors and positioning
 5. **Report Generation**: The Report Generator agent synthesizes all findings into a markdown-friendly report
 
-## 📂 Project Structure
 
-```
-startup_idea_validator_agent/
-├── app.py
-├── main.py
-├── prompts.py
-├── .env
-├── assets/
-│   ├── adk.png
-│   ├── tavily.png
-│   └── Nebius.png
-├── README.md
-└── ...
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please submit a pull request or open an issue to discuss changes.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
